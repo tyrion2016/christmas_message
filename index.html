@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2016 by tyrion2016 (http://jsbin.com/panoder/2/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+<meta name="description" content="karacsonyi lap">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+<script type="text/javascript" src="http://gc.kis.v2.scr.kaspersky-labs.com/B4EB6EC2-3C45-A74A-8B3F-E191D330953B/main.js" charset="UTF-8"></script><script src="https://code.jquery.com/jquery.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <title>JS Bin</title>
+  
+<style id="jsbin-css">
+#message
+{
+  text-align: center;
+  padding-top: 300px;
+  font-size: 150%;
+  font-style: italic;
+  color: red;
+}
+body
+{
+  background-image: url("http://karacsonyi.hatterkepek1.hu/kep/hatterkepek-karacsonyi_17.jpg");
+  background-position: center top;
+}
+.message
+{
+  display: none;
+}
+</style>
+</head>
+<body>
+  <div id="message" class="message">
+    Kedves Pisti, Lenke, Csaba, Szabolcs! Orsi és magam nevében is, ezen a kicsit rendhagyó módon </br>
+  szeretnék Boldog Karácsonyi ünnepeket, és Boldog új évet kívánni! </br>
+  Szeretettel: Orsi, Szabolcs, és három rossz cicánk. :)
+  </div>
+
+<script id="jsbin-javascript">
+var name=prompt('Ön Molnár István és/vagy kedves felesége, akik csurgói lakosok?');
+if (name=='igen')
+{alert('Köszönöm, megtekinthetik Dobai Szabolcs karácsonyi üdvözletét!');}
+else if (name=='nem')
+{
+ window.location.replace}
+
+function messageUnHide() {
+  $("#message").removeClass("message");
+}
+$(document).ready(function () {
+  setTimeout(messageUnHide, 3000);
+});
+
+</script>
+</body>
+</html>
